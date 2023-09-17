@@ -6,7 +6,7 @@ from babel.numbers import format_currency
 sns.set(style='dark')
 
 
-all_df = pd.read_csv("../all_data.csv")
+all_df = pd.read_csv("./all_data.csv")
 
 datetime_columns = ["date"]
 all_df.sort_values(by="date", inplace=True)
